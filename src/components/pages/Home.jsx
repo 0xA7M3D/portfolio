@@ -1,4 +1,3 @@
-import NavBar from "../Navbar/Navbar";
 import img_main from "../../assets/photo_2026-02-28_07-10-45.jpg"
 import { Link } from "react-router-dom";
 function Home(){
@@ -25,27 +24,27 @@ function Home(){
                 </div>
 
                 <div className="social-icons">
-                    <a href="#">
+                    <a target="_blank" href="https://github.com/0xA7M3D/">
                         <div className="soc">
                         <i className="fab fa-github"></i>
                     </div>
                     </a>
-                    <a href="https://www.instagram.com/oxa7med/">
+                    <a target="_blank" href="https://www.instagram.com/oxa7med/">
                         <div className="soc">
                         <i className="fab fa-instagram"></i>
                     </div>
                     </a>
-                    <a href="www.linkedin.com/in/a7meddev">
+                    <a target="_blank" href="https://www.linkedin.com/in/a7meddev">
                         <div className="soc">
                         <i className="fab fa-linkedin"></i>
                     </div>
                     </a>
-                    <a href="https://t.me/A7M3D_DeV">
+                    <a target="_blank" href="https://t.me/A7M3D_DeV">
                         <div className="soc">
                         <i className="fab fa-telegram"></i>
                     </div>
                     </a>
-                    <a href="https://wa.me/+201125402541">
+                    <a target="_blank" href="https://wa.me/+201125402541">
                         <div className="soc">
                         <i className="fab fa-whatsapp"></i>
                     </div>
