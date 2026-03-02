@@ -1,15 +1,15 @@
 
-import My_Image from "../../assets/photo_2026-02-28_07-10-45.jpg"
-import svg_css from "../../assets/svgs/css-3-svgrepo-com.svg"
-import svg_git from "../../assets/svgs/git-svgrepo-com.svg"
-import svg_html from "../../assets/svgs/html-5-svgrepo-com.svg"
-import svg_js from "../../assets/svgs/js-svgrepo-com.svg"
-import svg_php from "../../assets/svgs/php3-svgrepo-com.svg"
-import svg_react from "../../assets/svgs/react-javascript-js-framework-facebook-svgrepo-com (1).svg"
-import svg_scss from "../../assets/svgs/scss-svgrepo-com.svg"
-import svg_sql from "../../assets/svgs/sql-svgrepo-com.svg"
-import svg_tailwind from "../../assets/svgs/tailwindcss-icon-svgrepo-com.svg"
-
+import My_Image from "../../../../public/images/photo_2026-02-28_07-10-45.jpg"
+import svg_css from "../../../../public/svgs/css-3-svgrepo-com.svg"
+import svg_git from "../../../../public/svgs/git-svgrepo-com.svg"
+import svg_html from "../../../../public/svgs/html-5-svgrepo-com.svg"
+import svg_js from "../../../../public/svgs/js-svgrepo-com.svg"
+import svg_php from "../../../../public/svgs/php3-svgrepo-com.svg"
+import svg_react from "../../../../public/svgs/react-javascript-js-framework-facebook-svgrepo-com (1).svg"
+import svg_scss from "../../../../public/svgs/scss-svgrepo-com.svg"
+import svg_sql from "../../../../public/svgs/sql-svgrepo-com.svg"
+import svg_tailwind from "../../../../public/svgs/tailwindcss-icon-svgrepo-com.svg"
+import "./about.css"
 function About(){
     return(
         <div className="about">
@@ -29,7 +29,10 @@ function About(){
                     <div className="desc-about">
                             <p>Intro</p>
                             <p className="desc-el">
-                                Developer and art director based in Nice, FranceWith over 6 years of experience in the field, I enjoy blending beauty, design and technology to create unique, bespoke web experiences that exceed my clients' expectations.Whether collaborating with teams or leading design projects, my attention to detail and dedication to excellence have earned me a reputation for delivering exceptional results.Even when I'm not working for my clients, I'm always looking for new things to learn and experiment with. I continue to develop my design and development skills by working on personal projects, reading books, etc...
+Web Developer and Art Director based in Egypt.
+With over 3 years of experience in the digital field, I specialize in crafting modern, high-performing web experiences that seamlessly combine clean code, thoughtful design, and strategic execution.
+
+My work is rooted in the belief that successful digital products require both strong technical foundations and a refined visual perspective. With a multidisciplinary background, I approach each project with a holistic mindset — understanding not only how it should function, but how it should feel and communicate. 
                             </p>
                         
                     </div>

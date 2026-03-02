@@ -1,5 +1,6 @@
-import img_main from "../../assets/photo_2026-02-28_07-10-45.jpg"
+import img_main from "../../../../public/images/photo_2026-02-28_07-10-45.jpg"
 import { Link } from "react-router-dom";
+import "./home.css"
 function Home(){
     return(
         <div className="home">
@@ -10,7 +11,7 @@ function Home(){
                 <div className="title-and-desc">
                     <h2>
                         {/* The efficiency of one, the talent of three. Why look elsewhere? */}
-                        I help you bring your ideas online
+                        I help you bring your ideas <span>online</span>
                     </h2>
                     <p>
                         {/* Developer, art director and photographer, I fuse technicality and aestheticism to bring a unique dimension to my work. Passionate about beauty, I give life to projects that captivate and convert */}

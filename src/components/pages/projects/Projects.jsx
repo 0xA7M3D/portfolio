@@ -1,9 +1,9 @@
 
-import img_project from "../../assets/photo_2026-03-01_17-51-46.jpg"
-import img_project_2 from "../../assets/proj-2.png"
-import img_project_3 from "../../assets/proj-3.png"
-import img_project_4 from "../../assets/proj-4.png"
-
+import img_project from "../../../../public/images/photo_2026-03-01_17-51-46.jpg"
+// import img_project_2 from "../../../../public/images/proj-2.png"
+import img_project_3 from "../../../../public/images/proj-3.png"
+import img_project_4 from "../../../../public/images/proj-4.png"
+import "./projects.css"
 function Projects(){
     return(
         <div className="projects">
@@ -16,7 +16,7 @@ function Projects(){
             <div className="all-projects">
 
                 
-                <a href="https://salamaabdulkawi.com">
+                <a target="_blank" href="https://salamaabdulkawi.com">
                     <div className="project">
                         <div className="spans">
                             <span></span>
@@ -28,7 +28,7 @@ function Projects(){
                         </div>
                         <div className="btn-and-info">
                             <div className="l">
-                                <p>Wep for client</p>
+                                <p>Wep client</p>
                                 <p className="date">2025</p>
                             </div>
                             <div className="r">
@@ -39,7 +39,7 @@ function Projects(){
                         </div>
                     </div>
                 </a>
-                <a href="https://salamaabdulkawi.com">
+                <a target="_blank" href="https://ftd-1.netlify.app">
                     <div className="project">
                         <div className="spans">
                             <span></span>
@@ -51,7 +51,7 @@ function Projects(){
                         </div>
                         <div className="btn-and-info">
                             <div className="l">
-                                <p>Wep for client</p>
+                                <p>Wep collage</p>
                                 <p className="date">2025</p>
                             </div>
                             <div className="r">
@@ -62,7 +62,7 @@ function Projects(){
                         </div>
                     </div>
                 </a>
-                <a href="https://salamaabdulkawi.com">
+                <a target="_blank" href="https://mx-crazy-t.netlify.app">
                     <div className="project">
                         <div className="spans">
                             <span></span>
@@ -74,7 +74,7 @@ function Projects(){
                         </div>
                         <div className="btn-and-info">
                             <div className="l">
-                                <p>Wep for client</p>
+                                <p>Simble page</p>
                                 <p className="date">2025</p>
                             </div>
                             <div className="r">

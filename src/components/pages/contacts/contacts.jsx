@@ -1,3 +1,5 @@
+
+import "./contacts.css"
 function Contacts(){
     return(
 
@@ -20,27 +22,27 @@ function Contacts(){
 
                     <div className="inp">
                         <p>YourName*</p>
-                        <input type="text" name="name" placeholder="Ahmed.."/>
+                        <input required type="text" name="name" placeholder="Ahmed.."/>
                         <small></small>
                     </div>
                     <div className="inp">
                         <p>Email*</p>
-                        <input type="email" name="email" required placeholder="ahmed@gmail.com"/>
+                        <input required type="email" name="email" placeholder="ahmed@gmail.com"/>
                         <small></small>
                     </div>
                     <div className="inp">
                         <p>Phone*</p>
-                        <input type="text" name="phone-number" placeholder="123-456-789"/>
+                        <input required type="text" name="phone-number" placeholder="123-456-789"/>
                         <small></small>
                     </div>
                     <div className="inp">
                         <p>subject*</p>
-                        <input type="text" name="lable" placeholder="Subjct of ur message.."/>
+                        <input required type="text" name="lable" placeholder="Subjct of ur message.."/>
                         <small></small>
                     </div>
                     <div className="inp">
                         <p>Message*</p>
-                        <textarea type="text" name="message" placeholder="Lets work toghter!"/> 
+                        <textarea required type="text" name="message" placeholder="Lets work toghter!"/> 
                         <small></small>
                     </div>
 
