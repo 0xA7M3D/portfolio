@@ -1,0 +1,78 @@
+import NavBar from "../Navbar/Navbar";
+import img_main from "../../assets/photo_2026-02-28_07-10-45.jpg"
+import { Link } from "react-router-dom";
+function Home(){
+    return(
+        <div className="home">
+            <div className="section-1">
+                <div className="img_main">
+                    <img src={img_main} alt="" />
+                </div>
+                <div className="title-and-desc">
+                    <h2>
+                        {/* The efficiency of one, the talent of three. Why look elsewhere? */}
+                        I help you bring your ideas online
+                    </h2>
+                    <p>
+                        {/* Developer, art director and photographer, I fuse technicality and aestheticism to bring a unique dimension to my work. Passionate about beauty, I give life to projects that captivate and convert */}
+                        Web Developer blending technical precision with visual sensitivity.
+                        I build performant, user-focused websites where design and functionality work in harmony.
+                    </p>
+                </div>
+                <div className="btn-online">
+                    <span></span>
+                    Available for new opportunities
+                </div>
+
+                <div className="social-icons">
+                    <a href="#">
+                        <div className="soc">
+                        <i className="fab fa-github"></i>
+                    </div>
+                    </a>
+                    <a href="https://www.instagram.com/oxa7med/">
+                        <div className="soc">
+                        <i className="fab fa-instagram"></i>
+                    </div>
+                    </a>
+                    <a href="www.linkedin.com/in/a7meddev">
+                        <div className="soc">
+                        <i className="fab fa-linkedin"></i>
+                    </div>
+                    </a>
+                    <a href="https://t.me/A7M3D_DeV">
+                        <div className="soc">
+                        <i className="fab fa-telegram"></i>
+                    </div>
+                    </a>
+                    <a href="https://wa.me/+201125402541">
+                        <div className="soc">
+                        <i className="fab fa-whatsapp"></i>
+                    </div>
+                    </a>
+                </div>
+
+                <div className="btns-contacts">
+                    
+                    <Link to="/contacts">
+                        <div className="btn-contact">
+                            <button>Let's work together 
+                                <i className="fas fa-envelope"></i>
+                            </button>
+                        </div>
+                    </Link>
+
+                    <Link to="/contacts">  
+                        <div className="btn-contact">
+                            <button>Let's work together 
+                                <i className="fas fa-calendar-week"></i>
+                            </button>
+                        </div>
+                    </Link>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Home;
