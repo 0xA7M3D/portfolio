@@ -29,10 +29,7 @@ function About(){
                     <div className="desc-about">
                             <p>Intro</p>
                             <p className="desc-el">
-Web Developer and Art Director based in Egypt.
-With over 3 years of experience in the digital field, I specialize in crafting modern, high-performing web experiences that seamlessly combine clean code, thoughtful design, and strategic execution.
-
-My work is rooted in the belief that successful digital products require both strong technical foundations and a refined visual perspective. With a multidisciplinary background, I approach each project with a holistic mindset — understanding not only how it should function, but how it should feel and communicate. 
+                                Web Developer based in Egypt. With over 3 years of experience in the digital field, I specialize as a full-stack, My work is rooted in the belief that successful digital products require both strong technical foundations and a refined visual perspective. I approach each project with a holistic mindset — understanding not only how it should function, but how it should feel and communicate.
                             </p>
                         
                     </div>
