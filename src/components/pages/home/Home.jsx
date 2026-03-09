@@ -30,7 +30,7 @@ function Home(){
                         <i className="fab fa-github"></i>
                     </div>
                     </a>
-                    <a target="_blank" href="https://www.instagram.com/oxa7med/">
+                    <a target="_blank" href="https://www.instagram.com/0xahmed_1/">
                         <div className="soc">
                         <i className="fab fa-instagram"></i>
                     </div>
