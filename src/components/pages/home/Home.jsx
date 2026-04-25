@@ -4,6 +4,7 @@ import "./home.css"
 function Home(){
     return(
         <div className="home">
+            
             <div className="section-1">
                 <div className="img_main">
                     <img src={img_main} alt="" />
