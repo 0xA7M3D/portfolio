@@ -223,3 +223,15 @@ body{
 .bg-back video{
     width: 100%;
 }
+
+@media (max-width:950px){
+    .bg-back {
+        height: 100vh;
+    }
+    .bg-back video{
+        width: auto;
+        height: auto;
+    }
+}
+
+

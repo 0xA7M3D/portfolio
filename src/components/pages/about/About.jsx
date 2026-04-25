@@ -12,7 +12,7 @@ import svg_tailwind from "../../../../public/svgs/tailwindcss-icon-svgrepo-com.s
 import "./about.css"
 function About(){
     return(
-        <div className="about">
+        <div className="about active_a">
             <div className="sect-about-1">
                 <div className="title-about">
                     <p className="title-main-all">

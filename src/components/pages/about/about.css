@@ -112,3 +112,22 @@
     font-size: 23px;
     color: var(--main-color-gray);
 }
+
+
+
+.about{
+    opacity: 0;
+    animation: animat_re .5s forwards;
+}
+
+
+@keyframes animat_re {
+    from{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
