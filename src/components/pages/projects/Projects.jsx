@@ -3,6 +3,8 @@ import img_project from "../../../../public/images/photo_2026-03-01_17-51-46.jpg
 // import img_project_2 from "../../../../public/images/proj-2.png"
 import img_project_3 from "../../../../public/images/proj-3.png"
 import img_project_4 from "../../../../public/images/proj-4.png"
+import img_project_5 from "../../../../public/images/proj-6.png"
+import img_project_6 from "../../../../public/images/proj-7.png"
 import "./projects.css"
 function Projects(){
     return(
@@ -62,7 +64,7 @@ function Projects(){
                         </div>
                     </div>
                 </a>
-                <a target="_blank" href="https://mx-crazy-t.netlify.app">
+                <a target="_blank" href="#">
                     <div className="project">
                         <div className="spans">
                             <span></span>
@@ -70,11 +72,34 @@ function Projects(){
                             <span></span>
                         </div>
                         <div className="img-project">
-                            <img src={img_project_4} alt="" />
+                            <img src={img_project_5} alt="" />
                         </div>
                         <div className="btn-and-info">
                             <div className="l">
-                                <p>Simble page</p>
+                                <p>Store</p>
+                                <p className="date">2026</p>
+                            </div>
+                            <div className="r">
+                                <button>
+                                    <i className="fa fa-arrow-right-long"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a target="_blank" href="https://0x-edu.netlify.app/">
+                    <div className="project">
+                        <div className="spans">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div className="img-project">
+                            <img src={img_project_6} alt="" />
+                        </div>
+                        <div className="btn-and-info">
+                            <div className="l">
+                                <p>Edu Center</p>
                                 <p className="date">2025</p>
                             </div>
                             <div className="r">
